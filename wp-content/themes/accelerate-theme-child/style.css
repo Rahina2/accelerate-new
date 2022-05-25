@@ -1,0 +1,250 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Your Name!
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.blog-post h3 {
+	font-size: 1.5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+#secondary, #twitter-feed{
+	margin-left: 16em;
+}
+
+
+/* blog sidebar */
+ input[type="button"], input[type="submit"]{
+	 background: #45ac9d;
+}
+
+
+/* case-study */
+.discription{
+	text-align: center;
+}
+.frontpage-featured-image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.individual-featured-work{
+	/* list-style: none;
+	box-sizing: border-box;
+	margin: 2em -2em 2em 2em; */
+	display: flex;
+	flex-direction: column;
+	margin-left: 3em ;
+	padding-top: 3em;
+	
+	
+}
+
+.social-media-menu{
+	display: flex;
+	list-style: none;
+	margin: 1em;
+}
+
+.menu-item-type-custom{
+	margin: .5em;
+	margin: 0.5em;
+	width: 2em;
+  height: 1.8em;
+ 	background-color: black;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+}
+
+
+footer, .site-footer a {
+    color: white;
+}
+
+#nf-field-1-wrap{
+		width: 45%;
+    float: left;
+	}
+
+#nf-field-2-wrap {
+    float: right;
+    width: 45%;
+    margin-top: -6.5em;
+}
+
+#nf-field-4{
+	background: #45ac9d;
+	margin-left: 51em;
+	width: 9em;
+}
+
+
+/* case-study archive */
+.case-study-archive{
+	margin-top: 8em;
+}
+
+
+/* about page */
+.hero-para{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.hero-para p{
+	color: white;
+	margin: 3em;
+}
+
+
+
+
+.about{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5em;
+}
+
+.about-column{
+	display: flex;
+	margin-bottom: 7em;
+}
+
+.about-sidebar{
+	width: 70%;
+	margin: 0 0 0 5em;
+}
+
+.about-images{
+	margin: 0 0 0 5em;
+}
+
+
+ .work-interest h3{
+border-top: 1px gray solid;
+text-align: center;
+padding-top: 3em;
+/* display: flex;
+justify-content: center; */
+} 
+
+
+
+.work-interest h3 a{
+	margin-left: 3em;
+	} 
+/* homepage services */
+
+.services{
+	margin: 5em 0 0 0;
+}
+
+.homepage-services{
+	display: flex;
+	list-style: none;
+	margin: 1em 0 0 0;
+}
+
+.homepage-services-title{
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: solid;
+}
+
+.individual-service{
+	margin-left: 1.2em;
+}
+
+.individual-service h5{
+	font-size: .7em;
+	text-transform: capitalize;
+}
+.individual-featured-work{
+	margin: 1.5em;
+}
+
+.individual-featured-work h3{
+	text-align: center;
+}
+
+.homepage-services{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5em;
+}
+
+/* 404 page */
+
+.unfound-page{
+	background: url("img/funny-img.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+	height: 800px;
+}
+
+.unfound-page h1{
+	text-align: center;
+    font-size: 5em;
+    color: #45ac9d;
+	font-family: 'Aclonica', sans-serif;
+}
+@media (min-width: 768px) {
+
+.case-study-archive{
+	display: flex;
+
+	}
+
+	.case-study-sidebar-image{
+		width: 40%;
+		padding-right: 5em;
+	}
+}
+
+
+
+
+
+
